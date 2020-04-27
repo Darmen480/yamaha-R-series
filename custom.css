@@ -1,0 +1,291 @@
+h1
+{
+	font-family: 'Coda', cursive;
+}
+
+h2
+{
+	font-family: 'Coda', cursive;
+}
+
+
+
+p{
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+
+}
+
+.btn a {
+    width: 165px;
+    height: 35px;
+    line-height: 35px;
+    border: 3px solid blue;
+    color: black;
+    display: block;
+    margin: 35px auto 0;
+    text-align: center;
+    font-weight: solid;
+    text-decoration: none;
+    font-family: 'Aldrich', cursive;
+}
+
+.main_container{
+	position: relative;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+}
+
+.logo a{
+	font-family: 'Anton', sans-serif;
+	font-size: 32px;
+	color: red;
+	text-decoration: none;
+
+}
+
+.navbar_items ul{
+	display: flex;
+	text-decoration: none;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+        list-style-type: none;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+.banner_image{
+	background-image: linear-gradient(black,blue); no-repeat top center; 
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	margin-left: -7.7px;
+	padding-right: 16.9px;
+	padding-bottom: 10px;
+	margin-top: -8px;
+
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 {
+	color: #00FFFF;
+}
+
+
+.about,
+.products,
+.contactus,
+.ourfactoryteam{
+	text-align: center;
+	padding: 5% 10%;
+
+}
+
+
+.Products{
+	background: #000000;
+
+
+}
+
+.diff_products {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.diff_products .diff_products_item {
+    width: 18%;
+}
+
+.diff_products .diff_products_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_products .diff_products_item h3 {
+    color: #000000;
+    margin-bottom: 15px;
+     font-family: 'Tomorrow', sans-serif;
+
+}
+
+div li a
+{
+	text-decoration: none;
+}
+
+a 
+{
+	text-decoration: none;
+
+}
+
+div li a
+{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media (max-width: 1080px)
+{
+
+	.navbar
+	{
+		height: auto;
+		flex-direction: column;
+	}
+
+
+
+	.navbar_items ul
+	{
+		flex-direction: column;
+		text-align: right;
+		text-decoration: none;
+		float: right;
+	}
+	.logo
+	{
+		margin-bottom: 25px;
+	}
+
+	
+
+	.navbar_items ul li
+	{
+		margin-bottom:5px;
+	}
+
+	.banner_content
+	{
+		margin-top: 35px;
+	}
+
+}
+
+
+
+.form_wrapper .form_input
+{
+	margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"]
+{
+	width: 250px;
+	padding: 12px 20px; 
+	border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea
+{
+	width: 250px;
+	padding: 12px 20px; 
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+}
+
+.ourfactoryteam{
+	background: linear-gradient(white,darkcyan);
+	margin-left: -7.7px;
+	margin-right: -10px;
+}
+
+.ourfactoryteam_wrapper
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.ourfactoryteam_wrapper .team
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.ourfactoryteam_wrapper .team-1.team
+{
+	margin-bottom: 25px;
+
+}
+
+.ourfactoryteam_wrapper .team_members
+{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.ourfactoryteam_wrapper .team_member img
+{
+	display: block;
+	width: 100%;
+	height: 50%;
+	transition: all 0.3s ease-in;
+	padding-top: 100px;
+
+}
+
+.ourfactoryteam_wrapper .team_member:hover img
+{
+	transform: scale(1.1);
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 2px;
+	margin-left: -7.7px;
+        margin-bottom:-5%;
+	padding-right: 18px;
+}
+
+.footer a
+{
+	color: cyan;
+}
+
+
+
+
